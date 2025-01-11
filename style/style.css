@@ -80,6 +80,7 @@ main {
   font-weight: 600;
   line-height: normal;
   border-style: none;
+  cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -181,6 +182,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+cursor: pointer;
 }
 
 .younus-container{
@@ -270,6 +272,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 24px;
+cursor: pointer;
 transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -367,6 +370,10 @@ background: rgba(14, 14, 14, 0.10);
   gap: 23px
 }
 
+.logo-container img{
+cursor: pointer;
+}
+
 #opinion .opinion-container {
   display: flex;
 padding: 32px;
@@ -438,4 +445,5 @@ align-self: stretch;
 border-radius: 4px;
 border: 1px solid #0E0E0E;
 background: #C6E4D6;
+cursor: pointer;
 }
