@@ -242,3 +242,200 @@ line-height: normal;
 .news-image-container img{
   border-radius: 24px;
 }
+
+#donate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.amount-container {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+.amount-card {
+  width: 240px;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #FFF;
+  display: flex;
+padding: 40px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 24px;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.amount-card:hover {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+background: #C6E4D6;
+}
+
+.donate-input {
+  margin-top: 32px;
+  display: flex;
+width: 1032px;
+height: auto;
+padding: 20px 40px;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 24px;
+/* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+border-style: none;
+background: #FFF;
+}
+
+.pillar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.pillar-card {
+  display: flex;
+width: 302px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+}
+
+.pillar-card img {
+  margin-bottom: 12px;
+}
+
+#subscribe {
+  display: flex;
+  
+  flex-direction: column;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 80px;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+
+.email-content {
+  display: flex;
+  flex-direction: row;
+  margin: 24px auto;
+}
+
+footer {
+  display: flex;
+  
+  padding: 50px 160px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+  background-color: #FFF;
+}
+footer .title {
+  color: #0e0e0e;
+  font-family: 'Fira Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+footer .border-div {
+  width: 1122px;
+height: 1px;
+background: rgba(14, 14, 14, 0.10);
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 23px
+}
+
+#opinion .opinion-container {
+  display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+
+
+border-radius: 16px;
+background: #FFF;
+}
+
+#opinion .opinion-container .table-header {
+  display: flex;
+padding: 24px;
+width: 96.7%;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #C6E4D6;
+}
+
+.opinion-container .table-header .table-header-text {
+  color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.table-row {
+  display: flex;
+  
+  width: 100%;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+background: rgba(255, 255, 255, 0.10);
+}
+
+.table-data {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.table-data-button{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.table-data-button button {
+  display: flex;
+padding: 9px 14px;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+gap: 12px;
+align-self: stretch;
+border-radius: 4px;
+border: 1px solid #0E0E0E;
+background: #C6E4D6;
+}
